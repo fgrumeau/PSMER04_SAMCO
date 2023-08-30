@@ -1,20 +1,20 @@
 {
-    "description": "Arcad Demo",
-    "version": "0.0.1",
-    "includePath": [
-        "SAMCO_SRC/QPROTOSRC"
-    ],
-    "repository": "git@github.com:fgrumeau/PSMER04_SAMCO.git",
-    "objlib": "&verlibsamco",
-    "curlib": "*CRTDFT",
-    "extensions": {
-        "arcad": {
-            "code": "SAMCO",
-            "libraryPrefix": "SAM",
-            "iasp": "*SYSBAS",
-            "validated": true
-        }
-    },
-    "buildCommand": "elias compile {branch}",
-    "compileCommand": "elias compile {branch} -f {filename}"
+  "description": "Arcad Demo",
+  "version": "0.0.1",
+  "includePath": [
+    "SAMCO_SRC/QPROTOSRC"
+  ],
+  "repository": "git@github.com:fgrumeau/PSMER04_SAMCO.git",
+  "objlib": "&verlibsamco",
+  "curlib": "*CRTDFT",
+  "extensions": {
+    "arcad": {
+      "code": "SAMCO",
+      "libraryPrefix": "SAM",
+      "iasp": "*SYSBAS",
+      "validated": true
+    }
+  },
+  "buildCommand": "elias compile {branch}",
+  "compileCommand": "elias compile {branch} -f {files}"
 }
